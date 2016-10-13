@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="content-type"
+		content="text/html;charset=utf-8"
+		/>
+		<title>question.html</title>
+		<style type="text/css">
+			div{
+			margin:5px;
+			padding:20px;
+			border:1px solid #00f;
+		}
+		</style>
+		<script src="regexp.js"></script>
+		<script>
+			/*正则表达式 题号：数字；分数：数字*/
+			var regQuestionNo=/^\d+$/gi;
+			var regScore=/^\d+$/gi;
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<p>南大红鸟集团在线考试系统——题库</p>
+		</div>
+		<div id="content">
+			<div id="tableZone">
+				<div id="table">
+					<table>
+						<thead>
+							<tr>
+								<th>
+									题号
+								</th>
+								<th>
+									题目
+								</th>
+								<th>
+									答案
+								</th>
+								<th>
+									分数
+								</th>
+								<th>
+									操作
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									
+								</td>
+								<td>
+									
+								</td>
+								<td>
+									
+								</td>
+								<td>
+									
+								</td>
+								<td>
+									<input type="button" 
+										value="修改"/>
+									<input type="button" 
+										value="删除"/>
+								</td>
+															
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+									<input type="button" 
+										value="修改"/>
+									<input type="button" 
+										value="删除"/>
+								</td>
+															
+							</tr>
+						</tbody>
+					
+					</table>
+					<p>
+						<a href="#">前一页</a>
+						<span>第3页</span>
+						<a href="#">后一页</a>
+					</p>				
+				</div>
+				<div id="query">
+					<p>按题号查询</p>
+					<p>
+						<input id="questionNoQuery" 
+							type="text" value="此处输入题号" 
+							onblur=
+							"checkReg(questionNoQuery,regQuestionNo)"/>
+						<input type="button" value="查询"/>
+					</p>
+					<p>按关键字查询</p>
+					<p>
+						<input type="text" value="此处输入关键字" onblur=""/>
+						<input type="button" value="查询"/>					
+					</p>
+				</div>
+			</div>
+			<div id="textZone">
+				<p><textarea>此处输入题目内容</textarea></p>
+				<p>题号：<input id="questionNoInput" 
+					type="text" 
+						onblur=
+							"checkReg(questionNoInput,regQuestionNo)"/>
+				</p>
+				<p>分值：<input id="score" 
+						type="text" onblur="checkReg(score,regScore)"/>
+				</p>
+				<p>答案：<input type="checkbox"/>A
+					<input type="checkbox"/>B
+					<input type="checkbox"/>C
+					<input type="checkbox"/>D
+					<input type="checkbox"/>E
+				</p>			
+			</div>
+			<div id="buttonZone">
+				<input type="submit" value="添加/修改"/>
+				<input type="reset" value="重置">
+			</div>
+		</div>
+		<div id="footer">
+			<p>数组版权所有&copy;2015</p>
+		</div>
+	</body>
+</html>

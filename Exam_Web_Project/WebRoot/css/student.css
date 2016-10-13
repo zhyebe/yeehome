@@ -1,0 +1,147 @@
+#header{
+	height:15%;
+	line-height:400%;
+}
+#content{
+	padding:5% 0 9% 0;
+	height:90%;
+	font-size: 27px;
+	font-family: sans-serif;
+	color:#ffc;
+}
+#footer{
+	height:10%;
+	line-height:500%;
+}
+#resultTable{
+	border:2px solid #fff;
+	background:#387866;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+	width:90%;
+	
+}
+
+th{
+	margin:0;
+	border:2px solid #fff;
+	padding:7px 0 7px 0;
+	height:60px;
+	font-size:28px;
+	width:10%;
+	color:#000;
+}
+td{
+	margin:0;
+	border:1px solid #fff;
+	padding:7px 0 7px 0;
+	height:60px;
+	font-size:20px;
+	width:10%;
+	color:#fff;
+}
+#pages{
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+
+}
+#page{
+	margin:9px;
+	font-size: 27px;
+}
+
+#back,#forward{
+	display: inline-block;
+}
+#bef,#aft{
+	width:88px;
+	height:36px;
+	font-size: 23px;
+	font-family: sans-serif;
+	background: #37548e;
+	color:#ffc;
+}
+#findAll{
+	margin:0 auto;
+	padding:0
+	text-align:center;
+	font-size:27px;
+	
+}
+#findByDate{
+	margin:0 0 0 10%;
+	border:3px dashed #ffc; 
+	border-radius:30px;
+	padding:0;
+	text-align:center;
+	font-size:27px;
+	width:35%;
+	background: #37548e;;
+	float: left;
+}
+#findByStudentId{
+	margin:0 10% 0 0;
+	border:3px dashed #ffc; 
+	border-radius:30px;
+	padding:0;
+	text-align:center;
+	font-size:27px;
+	width:35%;
+	background: #37548e;
+	float:right;
+}
+.butt{
+	margin:10px auto;
+	width:88px;
+	height:36px;
+	font-size: 23px;
+	font-family: sans-serif;
+	background: #ffc;
+	color:#37548e;
+}
+#order,#all{
+	display: inline-block;
+	margin:0;
+	padding:0;
+}
+#result p{
+	padding:0;
+	margin:7px;
+}
+#result{
+	text-align: center;
+	font-weight: bold;
+	font-size: 34px;
+	color:#000;
+	
+}
+#username{
+	margin:0 auto;
+	width:260px;
+	height:35px;
+	font-size: 23px;
+	font-family: sans-serif;
+	color:#ccc;
+}
+#username:focus{
+	color:#000;
+}
+#year,#month,#date{
+	width:80px;
+	height:35px;
+	text-align:center;
+	font-size: 23px;
+	font-family: sans-serif;
+	color:#ccc;
+}
+#year:focus,#month:focus,#date:focus{
+	color:#000;
+}
+#viewall,#orderall{
+	width:120px;
+	border: none;
+	cursor: pointer;
+	
+}

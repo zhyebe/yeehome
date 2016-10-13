@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>student.html</title>
+	
+   
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+
+	
+	<script src="regexp.js"></script>
+	<link href="../css/public_div.css" rel="stylesheet" type="text/css"/>
+	<link href="../css/student.css" rel="stylesheet" type="text/css"/>
+	<script src="../js/student.js"></script>
+  </head>
+  
+  <body>
+     <div id="header" class="header">
+     	<p>南大红鸟教育集团在线考试系统——管理</p>
+     </div>
+     <div id="content" class="content">
+     	<div id="result">
+     		<table id="resultTable">
+     			<thead>
+     				<tr>
+     					<th>日期</th>
+     					<th>考试编号</th>
+     					<th>姓名</th>
+     					<th>分数</th>
+     				</tr>
+     			</thead>
+     			
+     			<tbody>
+     				<tr>
+     					<td></td>
+     					<td></td>
+     					<td></td>
+     					<td></td>
+     				</tr>
+     				<tr>
+     					<td></td>
+     					<td></td>
+     					<td></td>
+     					<td></td>
+     				</tr>
+     			</tbody>
+     		</table>
+     	</div>
+     	<div id="pages">
+     		<a href="#">前一页</a>
+	    	<span>第<span>2</span>页</span>
+	    	<a href="#">后一页</a>
+     	</div>
+     	<div id="control">
+     		<div id="findByStudentId">
+     			<p>按学员帐号查询</p>
+     			<p><input type="text" value="此处输入学员帐号"/>
+     			<input type="button" value="查询"/></p>
+     		</div>
+     		<div id="findByDate">
+     			<p>按考试日期查询</p>
+     			<p>
+     				<select id="year">
+     					<option>2014</option>
+     					<option>2015</option>
+     					<option>2016</option>
+     				</select>年
+     				<select id="month">
+     					<option>1</option>
+     					<option>2</option>
+     					<option>3</option>
+     				</select>月
+     				<select id="date">
+     					<option>1</option>
+     					<option>2</option>
+     					<option>3</option>
+     				</select>日
+     				<input type="button" value="查询"/>
+     			</p>
+     		</div>
+     		<div id="findAll">
+     			<input type="button" value="所有"/>
+     			<input type="button" value="排名"/>
+     		</div>
+     		
+     	</div>
+     </div>
+     <div id="footer" class="footer">
+     	<p>数组版权所有&copy;2015</p>
+     </div>
+  </body>
+</html>

@@ -1,0 +1,182 @@
+
+#header{
+	height:15%;
+	line-height:200px;
+}
+#content{
+	padding:5% 0 10% 0;
+	height:100%;
+	font-size: 27px;
+	font-family: sans-serif;
+	color:#ffc;
+	overflow: auto;
+}
+#footer{
+
+	height:5%;
+	line-height:5%;
+}
+#tableZone{
+	text-align:center;
+	width:100%;
+	
+}
+#table table{
+	border:2px solid #fff;
+	background:#387866;
+	margin:0 auto;
+	text-align:center;
+	width:90%;
+	
+}
+th{
+	margin:0;
+	border:2px solid #fff;
+	padding:7px 0 7px 0;
+	height:60px;
+	font-size:28px;
+	width:10%;
+	color:#000;
+}
+td{
+	margin:0;
+	border:1px solid #fff;
+	padding:7px 0 7px 0;
+	height:60px;
+	font-size:20px;
+	width:10%;
+	color:#fff;
+}
+
+#queryBox{
+	width:50%;
+	margin:0 auto;
+	padding:0;
+}
+
+#query p{
+	text-align:left;
+	padding:0;
+	margin:0;
+
+}
+#textZone textarea{
+	display:block;
+	margin:0 auto;
+	width:84%;
+	height:40%;
+	border:2px solid #fff;
+	font-size:23px;
+	color:#37548e
+}
+#query{
+	border:3px dashed #fff;
+	border-color:#387866;
+	border-radius:34px 0 0 34px;
+	margin:0 0 6% 6%;
+	padding:0 10px 0 0;
+	width:28%;
+	line-height:50px;
+	float: left;
+}
+#textZone{
+	border:3px dashed #fff;
+	border-color:#387866;
+	border-radius:0 34px 34px 0 ;
+	margin:0 5% 6% 0;
+	width:59%;
+	height:376px;
+	text-align:center;
+	float: right;
+}
+#back,#forward{
+	display: inline-block;
+}
+#bef,#aft{
+	width:88px;
+	height:36px;
+	font-size: 23px;
+	font-family: sans-serif;
+	background: #37548e;
+	color:#ffc;
+}
+#page{
+	margin:9px;
+	font-size: 27px;
+}
+.butt{
+	margin:10px auto;
+	width:88px;
+	height:36px;
+	font-size: 23px;
+	font-family: sans-serif;
+	background: #ffc;
+	color:#37548e;
+}
+#butt{
+	width:130px;
+	height:36px;
+	font-size: 23px;
+	font-family: sans-serif;
+	background: #ffc;
+	color:#37548e;
+}
+a{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+tbody{
+	padding:0;
+	margin:0;
+}
+.ques{
+	width:40%;
+}
+#questionNoQuery,#key{
+	margin:10px auto;
+	width:220px;
+	height:35px;
+	font-size: 23px;
+	font-family: sans-serif;
+	color:#ccc;
+}
+#questionNoQuery:focus,#key:focus{
+	color:#000;
+}
+#inputno,#inputkey{
+	font-size: 26px;
+	font-family: sans-serif;
+}
+#qno,#scor{
+	display: inline-block;
+	margin: 0 auto;
+	padding:0;
+}
+#score:focus{
+	color:#000;
+}
+#questionNoInput,#score{
+	margin:0 auto;
+	width:80px;
+	height:35px;
+	text-align:center;
+	font-size: 23px;
+	font-family: sans-serif;
+	color:#ccc;
+}
+#answer{
+	margin:0 auto;
+	padding:10px;
+}
+#contr{
+	margin:0 auto;
+	padding:0;
+}
+.checkb{
+	width:22px;
+	height:22px;
+}
+label{
+	cursor: pointer;
+}

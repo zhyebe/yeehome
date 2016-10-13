@@ -1,0 +1,101 @@
+#header{
+	height:110px;
+}
+body{
+	color:#ffc;
+}
+.loginform{
+	font-family:'微软雅黑','文泉驿正黑';
+	width:560px;
+	margin:60px auto;
+	padding:10px;
+	border-radius:10px;
+	background-color:#909cc4;
+	box-shadow: 1px 1px 1px #666;
+}
+#reg{
+	height:80px;
+	background-color:#909cc9;box-shadow: 1px 1px 1px #666;
+	padding:20px 0 0 0;	
+
+	
+				
+}
+#reg h2{
+	
+	padding:auto;
+	text-align:center;
+	margin-top:100px;
+	margin:12px auto;
+}
+.content p{
+	width:550px;
+	
+	padding:2px 5px 0;
+	margin:10px 0;
+	margin-top:18px;
+				
+}
+.content{
+	padding:15px;
+	height:500px;
+}
+label,span{
+	padding:5px;
+
+}
+#input0,#input1,#input2,#input3{
+	width:260px;
+	height:30px;
+}
+.show{
+	display:inline;		
+}
+.hidden{
+	display:none;			
+}
+#ok,#none{
+	width:95px;
+	height:	40px;
+	font-size:22px;
+	font-weight:bold;
+	font-family:monospace;
+	border-radius:2px;
+	color:#37548e;
+}
+
+#control{
+	padding:8px;
+	text-align: center;
+}
+form{
+	margin:0 auto;
+	text-align: left;
+	font-size: 20px;
+	
+}
+
+#student,#teacher{
+	width:17px;
+	height:17px;
+}
+.footer{
+	margin:0 auto;
+	padding:0 9px 0 0;
+	text-align: center;
+	font-size: 26px;
+	height:70px;
+	line-height: 70px;
+}
+.pass{
+	color:#000;
+}
+.error{
+	color:#f00;
+}
+.fail{
+	color:#f00;
+}
+.ok{
+	color:#ffc;
+}

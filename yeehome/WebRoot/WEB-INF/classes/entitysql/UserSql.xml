@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yeehome.idao.UserDao">
+	<select id="findAll"
+		resultType="com.yeehome.entity.User">
+		select * from cn_user
+	</select>
+	<select id="findByString" parameterType="String"
+		resultType="com.yeehome.entity.User">
+		select * from cn_user where cn_user_name=#{cn_user_name}
+	</select>
+	<insert id="add" parameterType="com.yeehome.entity.User">
+		insert into cn_user(cn_user_id,cn_user_name,
+		cn_user_nickname,cn_user_password)
+		values(#{cn_user_id},#{cn_user_name},#{cn_user_nickname},#{cn_user_password})
+	</insert>
+	<update id="modify" parameterType="com.yeehome.entity.User">
+		update cn_user set cn_user_token=#{cn_user_token} where cn_user_id=#{cn_user_id}
+	</update>
+	
+	<update id="updatePwd" parameterType="com.yeehome.entity.User">
+		update cn_user set cn_user_password=#{cn_user_password} where cn_user_name=#{cn_user_name}
+	</update>
+</mapper>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestQuestionSelectServlet</servlet-name>
+    <servlet-class>web.TestQuestionSelectServlet</servlet-class>
+    <init-param>
+    	<param-name>sum</param-name>
+    	<param-value>50</param-value>
+    </init-param>
+    <init-param>
+    	<param-name>examtime</param-name>
+    	<param-value>120</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestSubmitServlet</servlet-name>
+    <servlet-class>web.TestSubmitServlet</servlet-class>
+    <init-param>
+    	<param-name>scorePattern</param-name>
+    	<param-value>100</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EnterServlet</servlet-name>
+    <servlet-class>web.EnterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>web.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestRegServlet</servlet-name>
+    <servlet-class>web.TestRegServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ListStudentServlet</servlet-name>
+    <servlet-class>web.ListStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentManageServlet</servlet-name>
+    <servlet-class>web.StudentManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuestionServlet</servlet-name>
+    <servlet-class>web.QuestionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagementServlet</servlet-name>
+    <servlet-class>web.ManagementServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>TestQuestionSelectServlet</servlet-name>
+    <url-pattern>/questionSelect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestSubmitServlet</servlet-name>
+    <url-pattern>/testSubmit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EnterServlet</servlet-name>
+    <url-pattern>/enter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestRegServlet</servlet-name>
+    <url-pattern>/TestReg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListStudentServlet</servlet-name>
+    <url-pattern>*.list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentManageServlet</servlet-name>
+    <url-pattern>*.manager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionServlet</servlet-name>
+    <url-pattern>*.question</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagementServlet</servlet-name>
+    <url-pattern>*.manpwd</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

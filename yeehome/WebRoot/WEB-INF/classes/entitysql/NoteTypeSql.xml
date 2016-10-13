@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yeehome.idao.NoteTypeDao">
+	<select id="findByString" parameterType="String"
+		resultType="com.yeehome.entity.Note_Type">
+		select * from cn_note_type where cn_note_type_code=#{cn_note_type_code}
+	</select>
+</mapper>

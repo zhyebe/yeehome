@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="css/public_div.css">
+    <link rel="stylesheet" type="text/css" href="css/welcome.css">
+  </head>
+  
+  <body>
+  	<div id='header' class="header">
+		<p>南大红鸟集团在线考试系统</p>
+  	</div>
+    <div id='content' class="content">
+    	<p id="p">欢迎使用！</p>
+    	<a href='html/login.html' id="href">
+    		<div id="buttom" class="buttom">
+			<p>点击进入</p>
+    			<input type="buttom" value="立即跳转" id="jump"/>
+    		</div>
+    	</a>
+    </div>
+    <div id='footer' class="footer">数组版权所有&copy;2015</div>
+  </body>
+</html>

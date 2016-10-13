@@ -1,0 +1,50 @@
+#header{
+	height:120px;
+}
+#content{
+	padding:15px 0 0 0;
+	height:500px;
+   	text-align:center;
+   	font-size:60px;
+   	color:#444;
+   	background:#CCDDFF;
+}
+
+#click{
+	margin:0 auto;
+	padding:0;
+   	width:240px;
+   	height:56px;
+    text-align:center;
+    background:#EEFFBB;
+    cursor:pointer;
+    border:none;
+    font-size: 33px;
+    font-weight:bold;
+    font-family:sans-serif;
+    font-style:italic;
+    color: #f67;
+    cursor:pointer;
+ 
+}
+#jump{
+	padding:0;
+   	width:65px;
+   	height:25px;
+    text-align:center;
+    background:#375480;
+    cursor:pointer;
+    border:none;
+    font-size:16px;
+    font-family:Microsoft YaHei UI;
+    color:#fff;
+ 	cursor:pointer;
+}
+.footer{
+	line-height:70px;
+	text-align: center;
+	height:70px;
+}
+#href{
+	   text-decoration: none;
+}

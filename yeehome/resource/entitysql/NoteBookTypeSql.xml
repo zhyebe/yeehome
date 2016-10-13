@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yeehome.idao.NoteBookTypeDao">
+	<select id="findByString" parameterType="String" 
+	resultType="com.yeehome.entity.Notebook_Type">
+		select cn_notebook_type_id from cn_notebook_type where cn_notebook_type_code=#{cn_notebook_type_code}
+	</select>
+</mapper>

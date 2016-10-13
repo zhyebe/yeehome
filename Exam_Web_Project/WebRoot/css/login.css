@@ -1,0 +1,116 @@
+#header{
+	height:120px;
+	line-height: 120px;
+}
+form{
+	width:500px;
+	font-size: x-large;
+}
+#login{
+	border-radius:12px 12px 0px 0px;
+	border:0px solid blue;
+	text-align:center;
+	background:#37548e;
+	margin:0 auto;
+	width:100%;
+	padding:2px 1px;
+	box-shadow: 2px 2px 2px #333;
+	
+}
+#content{
+	height:500px;
+	margin:15px 0 15px 0;
+	padding:20px 0 20px 0;
+	text-align:center;
+}
+#username,#password{
+	border:0px solid #444;
+	margin:0px auto;
+	width:100%;
+	background:#37548e;
+	padding:3px 1px;
+	box-shadow: 2px 2px 2px #333;
+	
+}
+#radio{
+	border:0px solid red;
+	margin:0px auto;
+	width:100%;
+	height:28px;
+	background:#37548e;box-shadow: 2px 2px 2px #333;
+	padding:6px 1px;
+}
+#button{
+	border-radius:0px 0px 11px 11px;
+	border:0px solid red;
+	margin:0px auto;
+	width:100%;
+	height:78px;
+	margin:0 auto;
+	background:#37548e;box-shadow: 2px 2px 2px #333;
+	padding:9px 1px;
+	
+}
+#linkreg{
+	text-decoration: none;
+}
+#table{
+	margin:75px auto;
+	width:500px;
+	text-align:center;
+}
+#content{
+	background-image:url(../images/login.png);
+	background-size:cover;
+}	
+#error.pass{
+	display:none;
+
+}
+#error.error{
+	display:block;
+	width:500px;
+	height:0;
+	background:#37548e;
+	position:absolute;
+	text-align:center;
+	font-size:20px;
+	color:red;
+	margin:230px auto;
+	z-index:999;				
+}
+#errorbuttom{
+	width:30px;
+	height:18px;
+	text-align:center;
+	margin:0px 3px 4px 8px;
+	cursor:pointer;
+	background:#ddd;
+}
+#name,#pwd{
+	width: 254px;
+	height:24px;
+	font-size: 22px;
+}	
+#student,#admin{
+	width: 17px;
+	height: 17px;
+}
+#confirm,#reg,#clear{
+	width: 72px;
+	height: 35px;
+	font-size: 23px;
+	font-weight:bold;
+	color:#37548e;
+}
+.footer{
+	height:70px;
+	line-height:70px;
+	text-align: center;
+}
+body{
+	color:#ffc;
+}
+.status{
+	cursor: pointer;
+}

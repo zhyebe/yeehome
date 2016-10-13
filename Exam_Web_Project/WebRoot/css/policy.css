@@ -1,0 +1,33 @@
+#header,#footer{
+	font-family:sans-serif;
+	height: 
+}
+#content{
+	padding:40px 0 0 0;
+	height:570px;
+	text-align: center;
+	font-family:sans-serif;
+}
+#text{
+	margin: 40px auto;
+	padding:3px 100px 3px 100px;
+	text-align: left;
+	font-size: 25px;
+	font-family:sans-serif;
+	color:#37548e;
+	background: #fff;
+	width:50%;
+}
+h2{
+	margin:2px;
+	color:#f00;
+	font-size: 30px;
+}
+body{
+	margin:0 auto;
+	text-align: center;
+}
+.footer{
+	height:100px;
+	line-height:100px;
+}

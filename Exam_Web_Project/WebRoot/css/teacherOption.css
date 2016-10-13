@@ -1,0 +1,26 @@
+body{
+	margin: 0 auto;
+	padding:40px;
+}
+.content{
+	height:40%;
+	margin: 100px auto;
+	padding:100px 0 0 0;
+	text-align: center;
+}
+#viewquestion,#viewstudents{
+	margin:20px;
+	width:245px;
+	height:55px;
+	background:#37548e;
+	font-size: 28px;
+	font-weight:bold;
+    font-family:sans-serif;
+    font-style:italic;
+    color: #f67;
+    border:none;
+    cursor:pointer;
+}
+a{
+	text-decoration: none;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>注册用户</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/reg.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/public_div.css" />
+		<script type="text/javascript" src="reg.js" >
+			
+		</script>
+	</head>
+	<body >
+		<div class="header">
+			<p>南大红鸟教育集团在线考试系统——注册用户</p>
+		</div>
+		<div class="content">
+			<div class="loginform">
+				<div id="reg"><h2>注册用户</h2></div>
+				<form action="" method=""
+				onsubmit="return checkName() && checkPwd() && checkGpwd();">
+				<p><label>帐号:</label>
+				<input id="input1" type="text" name="name" onblur="checkName()">
+				<span id="result1"></span>
+			</p>
+			<p><label>密码:</label>
+				<input id="input2" type="password" name="pwd" onblur="checkPwd()">
+				<span id="result2"></span>
+			</p>
+			<p><label>帐号类别：</label>
+				<input type="radio" name="leibie" value=0
+					onclick="checkleibie(0)" checked="checked"><label>学生</label>
+				<input type="radio" name="leibie" value=1
+					onclick="checkleibie(1);"><label>管理</label>
+			</p>
+			<div>
+			<p><label>管理密码</label>
+				<input class="hidden" 
+					id="input3" type="password" name="pwd" onblur="checkGpwd()">
+				<span id="result3"></span>
+			</P>
+			</div>
+			<p>
+				<input type="submit" name="提交" id="ok">
+				<input type="reset" name="清空" id="none">
+			</p>
+			</form>
+		 </div>
+		</div>
+		<div class="footer">
+			<p>数组版权所有&copy;2015</p>
+		</div>
+	</body>
+</html>

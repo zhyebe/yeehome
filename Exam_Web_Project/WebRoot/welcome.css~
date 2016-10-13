@@ -1,0 +1,24 @@
+
+    #content{
+    	text-align:center;
+    	font-size:60px;
+    	color:#444;
+    	background:#CCDDFF;
+    }
+    #buttom{
+    	font-size:20px;
+   		width:40%;
+   		margin:0 340px;
+   		border:0;
+    }
+    #jump{
+    	width:58px;
+    	text-align:center;
+    	background:#EEFFBB;
+    	border:0;
+    	height:20px;
+    	cursor:pointer;
+    }
+    #href{
+   text-decoration: none;
+    }

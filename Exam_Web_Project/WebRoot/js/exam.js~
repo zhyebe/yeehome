@@ -1,0 +1,37 @@
+/*自动交卷方法：
+在开考按钮按下之后激活，
+周期性获取系统时间;
+并考试时间完结结束之后自动提交表单
+*/
+var timer;
+var testTime=1;
+function autoSubmit(){
+	document.getElementById("questionZone").setAttribute("class","openExam");
+	clearTimer();
+	var startTime=new Date();	
+	timer=setInterval(function(){
+		var time=new Date();
+		var current_time=time.getTime();
+		var start_time=startTime.getTime();
+		var time_remain=testTime-((current_time-start_time)/1000/60);
+		document.getElementById("timerDisplay").innerHTML=time_remain.toFixed(0);
+		console.log(time_remain);
+		if(time_remain<0){
+			document.getElementById("exam").submit();
+			document.getElementById("questionZone").setAttribute("class","closeExam");
+			clearTimer();
+		}
+	},1000);
+}
+/*销毁定时器*/
+function clearTimer(){
+	timer=clearInterval(timer);
+	
+}
+/*手动交卷*/
+function sub(){
+	document.getElementById("exam").submit();
+	clearTimer();
+	document.getElementById("questionZone").setAttribute("class","closeExam");
+	
+}

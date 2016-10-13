@@ -1,0 +1,16 @@
+/*各不同文本输入框正则表达参数表*/
+
+
+/*正则检查方法
+	参数：文本输入值，正则表达式
+*/
+function checkReg(objId,regex){
+	if(regex.test(document.getElementById(objId).value)){
+		alert("correct!");		
+		return true;
+	}else{
+		alert("incorrect!");
+		return false;	
+	}
+}
+

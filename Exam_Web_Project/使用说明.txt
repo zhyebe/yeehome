@@ -1,0 +1,33 @@
+﻿1、安装mysql5.5及以上版本，并设置密码，用户名默认root，
+
+   也可以自己设置新的用户名和密码
+
+
+2、用户登录进入mysql
+
+
+3、执行以下语句来执行sql文件，创建数据库和相应的表及数据
+
+   比如，输入命令：\. D:\workspace\Exam_Web_Project\exam.sql
+   
+   或source D:\workspace\Exam_Web_Project\exam.sql
+   
+   *注意确保路径正确*
+
+
+4、修改数据库编码的sql语句（结尾加分号）：
+
+   ALTER DATABASE dbtest CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+
+5、修改表编码的sql语句（结尾加分号）：
+
+   ALTER TABLE tbtest CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+
+6、修改项目下的db.properties中的参数（username、password、url）的值，
+
+   目标路径为..\Exam_Web_Project\src\utils\db.properties
+
+
+7、部署运行项目

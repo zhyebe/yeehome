@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type"
+		content="text/html;charset=utf-8"
+		/>
+		<title>question.html</title>
+		
+		<script src="../js/regexp.js"></script>
+		<script src="../js/question.js"></script>
+		<script type="text/javascript" src="js/external.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/public_div.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/question.css"/>
+		
+		
+	</head>
+	<body>
+		<div id="header" class="header">
+			<p>南大红鸟集团在线考试系统——题库</p>
+		</div>
+		<div id="content" class="content">
+			<div id="tableZone">
+				<div id="table">
+					<table id="questionTable">
+						<thead>
+							<tr>
+								<th>
+									题号
+								</th>
+								<th>
+									题目
+								</th>
+								<th>
+									答案
+								</th>
+								<th>
+									分数
+								</th>
+								<th>
+									操作
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							
+						</tbody>
+					
+					</table>
+					<p>
+						<a href="#">前一页</a>
+						<span>第3页</span>
+						<a href="#">后一页</a>
+					</p>				
+				</div>
+				<div id="query">
+					<div id="queryBox">
+						<form onsubmit=
+						"return checkReg('questionNoQuery',question_regQuestionNo)">
+							<p>按题号查询:
+								<input id="questionNoQuery" 
+								type="text" value="此处输入题号" 
+								onblur=
+								"checkReg(this.id,question_regQuestionNo)"/>
+								<input type="submit" 
+								value="查询"/>
+							</p>
+						</form>
+						<form>
+							<p>按关键字查询:
+						
+								<input type="text" 
+								value="此处输入关键字" onblur=""/>
+								<input type="submit"
+								value="查询"/>					
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div id="textZone">
+				<form onsubmit="return(question_checkAll())" 
+					action="" method="get">
+					<p><textarea>请在这里输入题目</textarea></p>
+					<p>题号：<input id="questionNoInput" 
+						type="text" 
+						onblur=
+							"checkReg(this.id,question_regQuestionNo)"/>
+					</p>
+					<p>分值：<input id="score" 
+							type="text" 
+							onblur=
+								"checkReg(this.id,question_regScore)"/>
+					</p>
+					<p>答案:<input type="checkbox"/>A
+						<input type="checkbox"/>B
+						<input type="checkbox"/>C
+						<input type="checkbox"/>D
+						<input type="checkbox"/>E
+					</p>			
+			
+					<p>
+						<input type="submit" 
+							value="添加/修改"/>
+						<input type="reset" value="重置">
+					</p>
+				</form>
+			</div>
+		</div>
+		<div id="footer" class="footer">
+			<p>数组版权所有&copy;2015</p>
+		</div>
+	</body>
+</html>
